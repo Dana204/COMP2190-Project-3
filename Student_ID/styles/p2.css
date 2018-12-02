@@ -1,0 +1,43 @@
+:root {
+    --error: #c32f27;
+}
+
+
+body {
+    font-size: 1.1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.form-field {
+    margin: 0.8rem;
+}
+
+input, select {
+    width: 15rem;
+    height: 1.8rem;
+    font-size: 1.1em;
+}
+
+select {
+    padding: 0rem 1rem;
+}
+
+label {
+    float: left; 
+    width: 10em; 
+    margin-right: 1em; 
+    /* text-align: right;  */
+}
+
+button {
+    margin-left: 1em; 
+    padding: 0.3rem;
+}
+
+.valid {
+    border: 3px solid green;
+}
+
+.invalid {
+    border: 3px solid var(--error);
+}

@@ -1,0 +1,31 @@
+table {
+    display: flex;
+    justify-content: center;
+    padding:  0px 20px;
+    border: 10px solid #d0d0ff;
+    font: 1.1em 'Verdana';
+    width: 60rem; 
+    border-collapse: collapse;
+}
+
+.table-headings {
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+}
+
+th {
+    font-weight: bold;
+}
+
+th,td {
+    padding: 0.2rem;
+}
+
+#underline td {
+    border-top: 2px solid #000;
+}
+
+

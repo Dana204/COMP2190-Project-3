@@ -1,0 +1,40 @@
+:root {
+    --even: #dfe1e7;
+    --frame: #d0d0ff;
+    --headerRow: #687291;
+    --odd: #eeeff2;
+    --white: #fff;
+}
+
+table {
+    border-collapse: collapse;
+    font: 1.1em 'Verdana';
+    width: 70rem;
+}
+
+.center {
+    text-align: center;
+}
+
+.table-headings {
+    background: var(--headerRow)!important;
+    color: var(--white);
+    text-align: left;
+}
+
+th,td {
+    padding: 0.2rem;
+}
+
+
+tr:nth-child(odd) {
+    background-color: var(--odd);
+}
+
+tr:nth-child(even) {
+    background-color: var(--even);
+}
+
+
+
+/* && discipline != '' && level != '' && credits != '' && semester != '' && opt != '0' */
